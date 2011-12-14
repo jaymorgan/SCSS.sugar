@@ -5,7 +5,7 @@
 		<confirm-partial characters="-" />
 	</behavior>
 	
-	<set name="com.less.property.azimuth">
+	<set name="com.scss.property.azimuth">
 		<completion string="left-side" />
 		<completion string="far-left" />
 		<completion string="left" />
@@ -20,7 +20,7 @@
 		<completion string="rightwards" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.background">
+	<set name="com.scss.property.background">
 		<completion string="scroll" />
 		<completion string="fixed" />
 		<completion string="transparent" />
@@ -37,20 +37,20 @@
 		<completion string="inherit" />
 		<completion string="@color" />
 	</set>
-	<set name="com.less.property.background-attachment">
+	<set name="com.scss.property.background-attachment">
 		<completion string="scroll" />
 		<completion string="fixed" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.background-color">
+	<set name="com.scss.property.background-color">
 		<completion string="@color" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.background-image">
+	<set name="com.scss.property.background-image">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.background-position">
+	<set name="com.scss.property.background-position">
 		<completion string="top" />
 		<completion string="center" />
 		<completion string="bottom" />
@@ -58,14 +58,14 @@
 		<completion string="right" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.background-repeat">
+	<set name="com.scss.property.background-repeat">
 		<completion string="repeat" />
 		<completion string="repeat-x" />
 		<completion string="repeat-y" />
 		<completion string="no-repeat" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border">
+	<set name="com.scss.property.border">
 		<completion string="@color" />
 		<completion string="none" />
 		<completion string="hidden" />
@@ -82,7 +82,7 @@
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-bottom">
+	<set name="com.scss.property.border-bottom">
 		<completion string="@color" />
 		<completion string="none" />
 		<completion string="hidden" />
@@ -99,11 +99,11 @@
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-bottom-color">
+	<set name="com.scss.property.border-bottom-color">
 		<completion string="@color" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-bottom-style">
+	<set name="com.scss.property.border-bottom-style">
 		<completion string="none" />
 		<completion string="hidden" />
 		<completion string="dotted" />
@@ -116,62 +116,22 @@
 		<completion string="outset" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-bottom-width">
+	<set name="com.scss.property.border-bottom-width">
 		<completion string="thin" />
 		<completion string="medium" />
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-collapse">
+	<set name="com.scss.property.border-collapse">
 		<completion string="collapse" />
 		<completion string="separate" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-color">
+	<set name="com.scss.property.border-color">
 		<completion string="@color" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-left">
-		<completion string="@color" />
-		<completion string="none" />
-		<completion string="hidden" />
-		<completion string="dotted" />
-		<completion string="dashed" />
-		<completion string="solid" />
-		<completion string="double" />
-		<completion string="groove" />
-		<completion string="ridge" />
-		<completion string="inset" />
-		<completion string="outset" />
-		<completion string="thin" />
-		<completion string="medium" />
-		<completion string="thick" />
-		<completion string="inherit" />
-	</set>
-	<set name="com.less.property.border-left-color">
-		<completion string="@color" />
-		<completion string="inherit" />
-	</set>
-	<set name="com.less.property.border-left-style">
-		<completion string="none" />
-		<completion string="hidden" />
-		<completion string="dotted" />
-		<completion string="dashed" />
-		<completion string="solid" />
-		<completion string="double" />
-		<completion string="groove" />
-		<completion string="ridge" />
-		<completion string="inset" />
-		<completion string="outset" />
-		<completion string="inherit" />
-	</set>
-	<set name="com.less.property.border-left-width">
-		<completion string="thin" />
-		<completion string="medium" />
-		<completion string="thick" />
-		<completion string="inherit" />
-	</set>
-	<set name="com.less.property.border-right">
+	<set name="com.scss.property.border-left">
 		<completion string="@color" />
 		<completion string="none" />
 		<completion string="hidden" />
@@ -188,11 +148,11 @@
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-right-color">
+	<set name="com.scss.property.border-left-color">
 		<completion string="@color" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-right-style">
+	<set name="com.scss.property.border-left-style">
 		<completion string="none" />
 		<completion string="hidden" />
 		<completion string="dotted" />
@@ -205,29 +165,13 @@
 		<completion string="outset" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-right-width">
+	<set name="com.scss.property.border-left-width">
 		<completion string="thin" />
 		<completion string="medium" />
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-spacing">
-		<completion string="inherit" />
-	</set>
-	<set name="com.less.property.border-style">
-		<completion string="none" />
-		<completion string="hidden" />
-		<completion string="dotted" />
-		<completion string="dashed" />
-		<completion string="solid" />
-		<completion string="double" />
-		<completion string="groove" />
-		<completion string="ridge" />
-		<completion string="inset" />
-		<completion string="outset" />
-		<completion string="inherit" />
-	</set>
-	<set name="com.less.property.border-top">
+	<set name="com.scss.property.border-right">
 		<completion string="@color" />
 		<completion string="none" />
 		<completion string="hidden" />
@@ -244,11 +188,11 @@
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-top-color">
+	<set name="com.scss.property.border-right-color">
 		<completion string="@color" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-top-style">
+	<set name="com.scss.property.border-right-style">
 		<completion string="none" />
 		<completion string="hidden" />
 		<completion string="dotted" />
@@ -261,71 +205,127 @@
 		<completion string="outset" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-top-width">
+	<set name="com.scss.property.border-right-width">
 		<completion string="thin" />
 		<completion string="medium" />
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.border-width">
+	<set name="com.scss.property.border-spacing">
+		<completion string="inherit" />
+	</set>
+	<set name="com.scss.property.border-style">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+	</set>
+	<set name="com.scss.property.border-top">
+		<completion string="@color" />
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
 		<completion string="thin" />
 		<completion string="medium" />
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.bottom">
+	<set name="com.scss.property.border-top-color">
+		<completion string="@color" />
+		<completion string="inherit" />
+	</set>
+	<set name="com.scss.property.border-top-style">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+	</set>
+	<set name="com.scss.property.border-top-width">
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	<set name="com.scss.property.border-width">
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	<set name="com.scss.property.bottom">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.caption-side">
+	<set name="com.scss.property.caption-side">
 		<completion string="top" />
 		<completion string="bottom" />
 		<completion string="left" />
 		<completion string="right" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.clear">
+	<set name="com.scss.property.clear">
 		<completion string="none" />
 		<completion string="left" />
 		<completion string="right" />
 		<completion string="both" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.clip">
+	<set name="com.scss.property.clip">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.color">
+	<set name="com.scss.property.color">
 		<completion string="@color" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.content">
+	<set name="com.scss.property.content">
 		<completion string="open-quote" />
 		<completion string="close-quote" />
 		<completion string="no-open-quote" />
 		<completion string="no-close-quote" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.counter-increment">
+	<set name="com.scss.property.counter-increment">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.counter-reset">
+	<set name="com.scss.property.counter-reset">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.cue">
+	<set name="com.scss.property.cue">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.cue-after">
+	<set name="com.scss.property.cue-after">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.cue-before">
+	<set name="com.scss.property.cue-before">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.cursor">
+	<set name="com.scss.property.cursor">
 		<completion string="auto" />
 		<completion string="crosshair" />
 		<completion string="default" />
@@ -344,12 +344,12 @@
 		<completion string="help" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.direction">
+	<set name="com.scss.property.direction">
 		<completion string="ltr" />
 		<completion string="rtl" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.display">
+	<set name="com.scss.property.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -368,7 +368,7 @@
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.elevation">
+	<set name="com.scss.property.elevation">
 		<completion string="below" />
 		<completion string="level" />
 		<completion string="above" />
@@ -376,16 +376,16 @@
 		<completion string="lower" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.empty-cells">
+	<set name="com.scss.property.empty-cells">
 		<completion string="show" />
 		<completion string="hide" />
 	</set>
-	<set name="com.less.property.float">
+	<set name="com.scss.property.float">
 		<completion string="left" />
 		<completion string="right" />
 		<completion string="none" />
 	</set>
-	<set name="com.less.property.font">
+	<set name="com.scss.property.font">
 		<completion string="inherit" />
 		<completion string="caption" />
 		<completion string="icon" />
@@ -395,7 +395,7 @@
 		<completion string="status-bar" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.font-family">
+	<set name="com.scss.property.font-family">
 		<completion string="serif" />
 		<completion string="sans-serif" />
 		<completion string="cursive" />
@@ -403,7 +403,7 @@
 		<completion string="monospace" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.font-size">
+	<set name="com.scss.property.font-size">
 		<completion string="xx-small" />
 		<completion string="x-small" />
 		<completion string="small" />
@@ -412,11 +412,11 @@
 		<completion string="x-large" />
 		<completion string="xx-large" />
 	</set>
-	<set name="com.less.property.font-size-adjust">
+	<set name="com.scss.property.font-size-adjust">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.font-stretch">
+	<set name="com.scss.property.font-stretch">
 		<completion string="normal" />
 		<completion string="wider" />
 		<completion string="narrower" />
@@ -430,18 +430,18 @@
 		<completion string="ultra-expanded" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.font-style">
+	<set name="com.scss.property.font-style">
 		<completion string="normal" />
 		<completion string="italic" />
 		<completion string="oblique" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.font-variant">
+	<set name="com.scss.property.font-variant">
 		<completion string="normal" />
 		<completion string="small-caps" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.font-weight">
+	<set name="com.scss.property.font-weight">
 		<completion string="normal" />
 		<completion string="bold" />
 		<completion string="bolder" />
@@ -457,23 +457,23 @@
 		<completion string="900" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.height">
+	<set name="com.scss.property.height">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.left">
+	<set name="com.scss.property.left">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.letter-spacing">
+	<set name="com.scss.property.letter-spacing">
 		<completion string="normal" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.line-height">
+	<set name="com.scss.property.line-height">
 		<completion string="normal" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.list-style">
+	<set name="com.scss.property.list-style">
 		<completion string="none" />
 		<completion string="inside" />
 		<completion string="outside" />
@@ -499,16 +499,16 @@
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.list-style-image">
+	<set name="com.scss.property.list-style-image">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.list-style-position">
+	<set name="com.scss.property.list-style-position">
 		<completion string="inside" />
 		<completion string="outside" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.list-style-type">
+	<set name="com.scss.property.list-style-type">
 		<completion string="disc" />
 		<completion string="circle" />
 		<completion string="square" />
@@ -531,50 +531,50 @@
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.margin">
+	<set name="com.scss.property.margin">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.margin-bottom">
+	<set name="com.scss.property.margin-bottom">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.margin-left">
+	<set name="com.scss.property.margin-left">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.margin-right">
+	<set name="com.scss.property.margin-right">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.margin-top">
+	<set name="com.scss.property.margin-top">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.marker-offset">
+	<set name="com.scss.property.marker-offset">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.max-height">
+	<set name="com.scss.property.max-height">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.max-width">
+	<set name="com.scss.property.max-width">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.min-height">
+	<set name="com.scss.property.min-height">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.min-width">
+	<set name="com.scss.property.min-width">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.opacity">
+	<set name="com.scss.property.opacity">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.orphans">
+	<set name="com.scss.property.orphans">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.outline">
+	<set name="com.scss.property.outline">
 		<completion string="@color" />
 		<completion string="invert" />
 		<completion string="none" />
@@ -592,12 +592,12 @@
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.outline-color">
+	<set name="com.scss.property.outline-color">
 		<completion string="@color" />
 		<completion string="invert" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.outline-style">
+	<set name="com.scss.property.outline-style">
 		<completion string="none" />
 		<completion string="hidden" />
 		<completion string="dotted" />
@@ -610,46 +610,38 @@
 		<completion string="outset" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.outline-width">
+	<set name="com.scss.property.outline-width">
 		<completion string="thin" />
 		<completion string="medium" />
 		<completion string="thick" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.overflow">
+	<set name="com.scss.property.overflow">
 		<completion string="visible" />
 		<completion string="hidden" />
 		<completion string="scroll" />
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.padding">
+	<set name="com.scss.property.padding">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.padding-bottom">
+	<set name="com.scss.property.padding-bottom">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.padding-left">
+	<set name="com.scss.property.padding-left">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.padding-right">
+	<set name="com.scss.property.padding-right">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.padding-top">
+	<set name="com.scss.property.padding-top">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.page">
+	<set name="com.scss.property.page">
 		<completion string="auto" />
 	</set>
-	<set name="com.less.property.page-break-after">
-		<completion string="auto" />
-		<completion string="always" />
-		<completion string="avoid" />
-		<completion string="left" />
-		<completion string="right" />
-		<completion string="inherit" />
-	</set>
-	<set name="com.less.property.page-break-before">
+	<set name="com.scss.property.page-break-after">
 		<completion string="auto" />
 		<completion string="always" />
 		<completion string="avoid" />
@@ -657,21 +649,29 @@
 		<completion string="right" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.page-break-inside">
+	<set name="com.scss.property.page-break-before">
+		<completion string="auto" />
+		<completion string="always" />
+		<completion string="avoid" />
+		<completion string="left" />
+		<completion string="right" />
+		<completion string="inherit" />
+	</set>
+	<set name="com.scss.property.page-break-inside">
 		<completion string="auto" />
 		<completion string="avoid" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.pause">
+	<set name="com.scss.property.pause">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.pause-after">
+	<set name="com.scss.property.pause-after">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.pause-before">
+	<set name="com.scss.property.pause-before">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.pitch">
+	<set name="com.scss.property.pitch">
 		<completion string="x-low" />
 		<completion string="low" />
 		<completion string="medium" />
@@ -679,58 +679,58 @@
 		<completion string="x-high" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.pitch-range">
+	<set name="com.scss.property.pitch-range">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.play-during">
+	<set name="com.scss.property.play-during">
 		<completion string="auto" />
 		<completion string="none" />
 	</set>
-	<set name="com.less.property.position">
+	<set name="com.scss.property.position">
 		<completion string="static" />
 		<completion string="relative" />
 		<completion string="absolute" />
 		<completion string="fixed" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.quotes">
+	<set name="com.scss.property.quotes">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.richness">
+	<set name="com.scss.property.richness">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.right">
+	<set name="com.scss.property.right">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.size">
+	<set name="com.scss.property.size">
 		<completion string="auto" />
 		<completion string="portrait" />
 		<completion string="landscape" />
 	</set>
-	<set name="com.less.property.speak">
+	<set name="com.scss.property.speak">
 		<completion string="normal" />
 		<completion string="none" />
 		<completion string="spell-out" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.speak-header">
+	<set name="com.scss.property.speak-header">
 		<completion string="once" />
 		<completion string="always" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.speak-numeral">
+	<set name="com.scss.property.speak-numeral">
 		<completion string="digits" />
 		<completion string="continuous" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.speak-punctuation">
+	<set name="com.scss.property.speak-punctuation">
 		<completion string="code" />
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.speech-rate">
+	<set name="com.scss.property.speech-rate">
 		<completion string="x-slow" />
 		<completion string="slow" />
 		<completion string="medium" />
@@ -740,21 +740,21 @@
 		<completion string="slower" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.stress">
+	<set name="com.scss.property.stress">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.table-layout">
+	<set name="com.scss.property.table-layout">
 		<completion string="auto" />
 		<completion string="fixed" />
 	</set>
-	<set name="com.less.property.text-align">
+	<set name="com.scss.property.text-align">
 		<completion string="left" />
 		<completion string="right" />
 		<completion string="center" />
 		<completion string="justify" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.text-decoration">
+	<set name="com.scss.property.text-decoration">
 		<completion string="none" />
 		<completion string="underline" />
 		<completion string="overline" />
@@ -762,31 +762,31 @@
 		<completion string="blink" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.text-indent">
+	<set name="com.scss.property.text-indent">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.text-shadow">
+	<set name="com.scss.property.text-shadow">
 		<completion string="inherit" />
 		<completion string="none" />
 	</set>
-	<set name="com.less.property.text-transform">
+	<set name="com.scss.property.text-transform">
 		<completion string="capitalize" />
 		<completion string="uppercase" />
 		<completion string="lowercase" />
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.top">
+	<set name="com.scss.property.top">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.unicode-bidi">
+	<set name="com.scss.property.unicode-bidi">
 		<completion string="normal" />
 		<completion string="embed" />
 		<completion string="bidi-override" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.vertical-align">
+	<set name="com.scss.property.vertical-align">
 		<completion string="baseline" />
 		<completion string="sub" />
 		<completion string="super" />
@@ -797,16 +797,16 @@
 		<completion string="text-bottom" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.visibility">
+	<set name="com.scss.property.visibility">
 		<completion string="visible" />
 		<completion string="hidden" />
 		<completion string="collapse" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.voice-family">
+	<set name="com.scss.property.voice-family">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.volume">
+	<set name="com.scss.property.volume">
 		<completion string="silent" />
 		<completion string="x-soft" />
 		<completion string="soft" />
@@ -815,30 +815,30 @@
 		<completion string="x-loud" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.white-space">
+	<set name="com.scss.property.white-space">
 		<completion string="normal" />
 		<completion string="pre" />
 		<completion string="nowrap" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.widows">
+	<set name="com.scss.property.widows">
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.width">
+	<set name="com.scss.property.width">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.word-spacing">
+	<set name="com.scss.property.word-spacing">
 		<completion string="normal" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.less.property.z-index">
+	<set name="com.scss.property.z-index">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 	
 	
-	<set name="com.less.properties">
+	<set name="com.scss.properties">
 		<behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:)|[^:]</matched-suffix>
@@ -971,7 +971,7 @@
 		<completion string="z-index" />
 	</set>
 	
-	<set name="com.less.browser-specific-properties">
+	<set name="com.scss.browser-specific-properties">
 		<behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:)|[^:]</matched-suffix>

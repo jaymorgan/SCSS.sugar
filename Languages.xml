@@ -2,24 +2,17 @@
 
 <settings>
 
-	<language id="text.less">
+	<language id="text.scss">
 		
 		<!-- Note: root-zone will be deprecated in the next beta and replaced by syntax-name -->
-		<root-zone>styling.less</root-zone>
-		<name>LESS</name>
+		<root-zone>styling.scss</root-zone>
+		<name>SCSS</name>
 		<detectors>
-			<extension>less</extension>
+			<extension>scss</extension>
 		</detectors>
 		
-		<default-extension>less</default-extension>
+		<default-extension>scss</default-extension>
 		
 	</language>
-	
-	<meta>
-		<name>LESS</name>
-		<author>Joshua Hawxwell</author>
-		<download format="git">git://github.com/hawx/LESS.sugar.git</download>
-		<url>http://github.com/hawx/LESS.sugar</url>
-	</meta>
-	
+
 </settings>
