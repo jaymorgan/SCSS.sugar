@@ -12,6 +12,7 @@
 		</detectors>
 		
 		<default-extension>scss</default-extension>
+		<default-mime-type>text/scss</default-mime-type>
 		
 	</language>
 
