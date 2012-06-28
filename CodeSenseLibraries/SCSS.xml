@@ -358,7 +358,6 @@
 		<completion string="marker" />
 		<completion string="table" />
 		<completion string="inline-table" />
-		<completion string="inline-block" />
 		<completion string="table-row-group" />
 		<completion string="table-header-group" />
 		<completion string="table-footer-group" />
@@ -970,16 +969,6 @@
 		<completion string="width" />
 		<completion string="word-spacing" />
 		<completion string="z-index" />
-		<completion string="@function">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*["'])|\s*[^"']</matched-suffix>
-					<transform-into>(?1:: ${1:name}(\$${2:a}\) {
-	@return $0;
-	)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
 	</set>
 	
 	<set name="com.scss.browser-specific-properties">
